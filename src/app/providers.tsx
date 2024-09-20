@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 
 // 제네릭 타입으로 인한 함수 선언식 변경
 function usePrevious<T>(value: T) {
-  let ref = useRef<T>(value);
+  let ref = useRef<T>();
 
   useEffect(() => {
     ref.current = value;

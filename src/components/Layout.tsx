@@ -12,6 +12,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <div className="relative flex w-full flex-col max-w-7xl mx-auto">
         <Header />
         {children}
+        {/* <Footer /> */}
       </div>
     </>
   );
