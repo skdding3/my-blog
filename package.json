@@ -6,10 +6,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "@headlessui/react": "^2.1.8",
     "classnames": "^2.5.1",
     "clsx": "^2.1.1",
     "date-fns": "^3.6.0",
     "gray-matter": "^4.0.3",
+    "headlessui": "^0.0.0",
     "next": "latest",
     "next-theme": "^0.1.5",
     "next-themes": "^0.3.0",
